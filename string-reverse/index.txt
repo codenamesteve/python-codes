@@ -1,0 +1,18 @@
+def reverseString(x):
+    y = ""
+    z = len(x)
+    
+    for i in range(1, z+1):
+        y = y + x[-i]
+        
+    return y
+
+
+# test cases
+str = reverseString("Python")
+str2 = reverseString("Hello world")
+str3 = reverseString("Foobar")
+        
+print(str)
+print(str2)
+print(str3)
